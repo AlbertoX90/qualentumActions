@@ -11,8 +11,8 @@ class TestDivision(unittest.TestCase):
     self.assertEqual(producto(-1, -1), 1)
  def test_resta(self):
     self.assertEqual(restar(3, 2), 1)
-    self.assertEqual(restar(-1, 1), 0)
-    self.assertEqual(restar(-1, -1), -2)
+    self.assertEqual(restar(-1, 1), -2)
+    self.assertEqual(restar(-1, -1), 0)
  def test_suma(self):
     self.assertEqual(sumar(3, 2), 5)
     self.assertEqual(sumar(-1, 1), 0)
